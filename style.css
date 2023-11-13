@@ -1,0 +1,33 @@
+#mainContainer{
+    display: grid;
+    grid-template-columns: repeat(4,55px);
+    grid-template-rows: repeat(4,55px);
+    gap: 5px;
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    font-weight: bold;
+}
+
+#zoneAffichage{
+    grid-column: span 2;
+    border: 1px solid black;
+    text-align: left;
+}
+
+#remiseAZero{
+    background-color: red;
+    color: white;
+}
+
+#egal{
+    background-color: green;
+    color: white;
+}
+
+.operator{
+    background-color: darkslategrey;
+    color: white;
+}
